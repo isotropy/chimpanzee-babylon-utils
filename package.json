@@ -1,16 +1,16 @@
 {
-  "name": "chimpanzee-babylon-utils",
+  "name": "isotropy-analyzer-utils",
   "description": "Utility functions for parsing Babylon ASTs.",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": ["Jeswin Kumar<jeswinpk@agilehead.com>"],
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/isotropy/chimpanzee-babylon-utils.git"
+    "url": "https://github.com/isotropy/isotropy-analyzer-utils.git"
   },
   "bugs": {
-    "url": "https://github.com/isotropy/chimpanzee-babylon-utils/issues"
+    "url": "https://github.com/isotropy/isotropy-analyzer-utils/issues"
   },
   "dependencies": {},
   "devDependencies": {
