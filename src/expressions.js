@@ -1,4 +1,4 @@
-import exception from "../exception";
+import exception from "./exception";
 
 export function getIdentifier(path) {
   return path.type === "CallExpression"
