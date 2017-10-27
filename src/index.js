@@ -8,4 +8,4 @@ export { arrowFunctions, bindings, expressions, results };
 export { default as composite } from "./composite";
 export { default as source } from "./source";
 export { default as clean } from "./clean";
-export { default as permute } from "./permute";
+export { permute, permuteWith } from "./permute";
