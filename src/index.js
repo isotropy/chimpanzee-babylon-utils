@@ -1,7 +1,6 @@
 import * as bindings from "./bindings";
-import * as expressions from "./expressions";
 
-export { bindings, expressions };
+export { bindings };
 
 export { default as composite } from "./composite";
 export { default as source } from "./source";
