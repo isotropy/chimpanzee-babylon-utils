@@ -34,3 +34,10 @@ export function permuteWith(mods, obj) {
     setters.reduce((acc, setter, i) => setter(acc, permutation[i]), obj)
   );
 }
+
+export function permuteProps(props, obj) {
+  return permuteWith(
+    props.map(prop => [x => x[prop], (x, v) => ({ ...x, [prop]: v })]),
+    obj
+  );
+}

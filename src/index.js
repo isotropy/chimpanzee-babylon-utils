@@ -1,11 +1,11 @@
-import * as arrowFunctions from "./arrow-functions";
 import * as bindings from "./bindings";
 import * as expressions from "./expressions";
-import * as results from "./results";
 
-export { arrowFunctions, bindings, expressions, results };
+export { bindings, expressions };
 
 export { default as composite } from "./composite";
 export { default as source } from "./source";
 export { default as clean } from "./clean";
-export { permute, permuteWith } from "./permute";
+export { default as expr } from "./expr";
+
+export { permute, permuteWith, permuteProps } from "./permute";
