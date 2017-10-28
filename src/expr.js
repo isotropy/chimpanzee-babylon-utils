@@ -1,4 +1,4 @@
-import { parse, Match, Empty, Skip, Fault } from "chimpanzee";
+import { parse, wrap, Match, Empty, Skip, Fault } from "chimpanzee";
 
 export default function expr(schema, onMatch, opts = {}, params = {}) {
   return wrap(
