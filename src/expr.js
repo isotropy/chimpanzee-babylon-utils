@@ -1,6 +1,6 @@
 import { parse, Match, Empty, Skip, Fault } from "chimpanzee";
 
-export default function expr(schema, onMatch, params = {}, opts = {}) {
+export default function expr(schema, onMatch, opts = {}, params = {}) {
   return wrap(
     (obj, key, parents, parentKeys) => context => {
       const result = parse(schema)(obj, key, parents, parentKeys)(context);
