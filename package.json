@@ -1,7 +1,7 @@
 {
   "name": "isotropy-analyzer-utils",
   "description": "Utility functions for parsing Babylon ASTs.",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": ["Jeswin Kumar<jeswinpk@agilehead.com>"],
   "main": "dist/index.js",
